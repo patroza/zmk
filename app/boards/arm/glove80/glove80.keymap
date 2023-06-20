@@ -102,8 +102,8 @@ gqt2: global-quick-tap2 {
         hold-trigger-key-positions = <RIGHT_HAND_KEYS THUMB_KEYS>;
         hold-trigger-on-release;
         tapping-term-ms = <250>;
-        quick-tap-ms = <160>;
-        global-quick-tap; // with typing streak
+        quick-tap-ms = <175>;
+        global-quick-tap-ms = <150>;
     };
 
     homey_right: home_row_mods_right_hand {
@@ -115,8 +115,8 @@ gqt2: global-quick-tap2 {
         hold-trigger-key-positions = <LEFT_HAND_KEYS THUMB_KEYS>;
         hold-trigger-on-release;
         tapping-term-ms = <250>;
-        quick-tap-ms = <160>;
-        global-quick-tap; // with typing streak
+        quick-tap-ms = <175>;
+        global-quick-tap-ms = <150>;
     };
 
 
@@ -154,8 +154,8 @@ gqt2: global-quick-tap2 {
         #binding-cells = <2>;
         bindings = <&kp>, <&kp>;
         tapping-term-ms = <320>; // extra delay
-        quick-tap-ms = <160>;
-        global-quick-tap;
+        quick-tap-ms = <175>;
+        global-quick-tap-ms = <150>;
     };
 
     pinky_left: home_row_mods_left_pinky_gui {
@@ -167,8 +167,8 @@ gqt2: global-quick-tap2 {
         hold-trigger-key-positions = <RIGHT_HAND_KEYS THUMB_KEYS>;
         hold-trigger-on-release;
         tapping-term-ms = <320>; // extra delay
-        quick-tap-ms = <160>;
-        global-quick-tap;
+        quick-tap-ms = <175>;
+        global-quick-tap-ms = <150>;
     };
 
     pinky_right: home_row_mods_right_pinky_gui {
@@ -180,8 +180,8 @@ gqt2: global-quick-tap2 {
         hold-trigger-key-positions = <LEFT_HAND_KEYS THUMB_KEYS>;
         hold-trigger-on-release;
         tapping-term-ms = <320>; // extra delay
-        quick-tap-ms = <160>;
-        global-quick-tap;
+        quick-tap-ms = <175>;
+        global-quick-tap-ms = <150>;
     };
 
     thumb: miryoku_thumb_layer {
